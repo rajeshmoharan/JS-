@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration From</title>
+</head>
+<body>
+        <!-- header file -->
+        <ul class="div">
+            <li>Javascript</li>
+        </ul>
+</body>
+<script>
+        function newOne(parameter){
+            // const li = document.querySelector('li');
+            const newLi = document.createElement('li');
+            // newLi.innerHTML = `${parameter}`;
+            // document.querySelector('.div').appendChild(newLi)
+            const data = document.createTextNode(parameter);
+            newLi.appendChild(data)
+            const ul = document.querySelector('.div');
+            ul.appendChild(newLi)
+        }
+        
+        newOne('Java')
+
+</script>
+</html>

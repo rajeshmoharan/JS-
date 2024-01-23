@@ -1,0 +1,6 @@
+
+//javascript function
+
+toFixed()
+toString()
+toLocalString()

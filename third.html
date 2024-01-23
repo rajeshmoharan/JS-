@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document data</title>
+</head>
+<body style="background-color: black;">
+    
+</body>
+    <script>
+        const div = document.createElement('div');
+            console.log(div);
+
+        // div.innerText = "Welcomt to BCA Department";
+        div.style.color = 'red';
+        div.style.fontSize = '50px'
+        div.className = 'header';
+        div.id = 'one'
+
+        div.setAttribute('title','generated-title')
+        
+        const addT = document.createTextNode("Welcome to BCA Department");
+        div.appendChild(addT)
+
+        document.body.appendChild(div);
+
+
+    </script>
+</html>
